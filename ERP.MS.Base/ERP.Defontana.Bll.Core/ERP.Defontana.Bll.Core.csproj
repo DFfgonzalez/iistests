@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C529EF92-F15B-412C-B0F2-2F0A5D8399C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERP.Defontana.Bll.Core</RootNamespace>
+    <AssemblyName>ERP.Defontana.Bll.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Service.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Defontana.Bll.Interface\ERP.Defontana.Bll.Interface.csproj">
+      <Project>{432a080c-7b26-4691-bca1-da0ad97b52ba}</Project>
+      <Name>ERP.Defontana.Bll.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Defontana.Cpl.Dto\ERP.Defontana.Cpl.Dto.csproj">
+      <Project>{44d67fe2-a9c1-4a52-b4e1-1716b49bcbc5}</Project>
+      <Name>ERP.Defontana.Cpl.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Defontana.Cpl.Exceptions\ERP.Defontana.Cpl.Exceptions.csproj">
+      <Project>{e703c0e9-edfd-4d1d-988a-df724a413065}</Project>
+      <Name>ERP.Defontana.Cpl.Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Defontana.Cpl.Util\ERP.Defontana.Cpl.Util.csproj">
+      <Project>{12ad4909-84d7-4a22-8de9-148077528333}</Project>
+      <Name>ERP.Defontana.Cpl.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ERP.Defontana.Dal.Interface\ERP.Defontana.Dal.Interface.csproj">
+      <Project>{0267f882-3202-495b-9bb0-135b38054f25}</Project>
+      <Name>ERP.Defontana.Dal.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

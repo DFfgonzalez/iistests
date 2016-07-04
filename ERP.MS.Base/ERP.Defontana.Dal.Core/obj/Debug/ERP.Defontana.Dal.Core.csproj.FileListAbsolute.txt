@@ -1,0 +1,16 @@
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Dal.Core.dll.config
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Dal.Core.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Dal.Core.pdb
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\AutoMapper.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\EntityFramework.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Cpl.Dto.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Dal.Interface.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Cpl.Dto.pdb
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\ERP.Defontana.Dal.Interface.pdb
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\AutoMapper.xml
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\EntityFramework.xml
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\obj\Debug\ERP.Defontana.Dal.Core.csprojResolveAssemblyReference.cache
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\obj\Debug\ERP.Defontana.Dal.Core.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Dal.Core\obj\Debug\ERP.Defontana.Dal.Core.pdb

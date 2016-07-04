@@ -1,0 +1,7 @@
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\bin\Debug\ERP.Defontana.Bll.Interface.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\bin\Debug\ERP.Defontana.Bll.Interface.pdb
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\bin\Debug\ERP.Defontana.Cpl.Dto.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\bin\Debug\ERP.Defontana.Cpl.Dto.pdb
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\obj\Debug\ERP.Defontana.Bll.Interface.csprojResolveAssemblyReference.cache
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\obj\Debug\ERP.Defontana.Bll.Interface.dll
+C:\NET\REPOS\ERP.MS.Base\ERP.MS.Base\ERP.Defontana.Bll.Interface\obj\Debug\ERP.Defontana.Bll.Interface.pdb

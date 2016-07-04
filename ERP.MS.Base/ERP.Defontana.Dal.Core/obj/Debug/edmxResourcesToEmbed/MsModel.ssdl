@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ERP.Defontana.Dal.Core.Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="IDEmpresa" />
+    </Key>
+    <Property Name="IDEmpresa" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CodLegal" Type="varchar" MaxLength="20" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Giro" Type="varchar" MaxLength="100" />
+    <Property Name="Sigla" Type="varchar" MaxLength="20" />
+    <Property Name="Direccion" Type="varchar" MaxLength="200" />
+    <Property Name="Distrito" Type="varchar" MaxLength="30" />
+    <Property Name="Ciudad" Type="varchar" MaxLength="30" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" />
+    <Property Name="Pais" Type="varchar" MaxLength="30" />
+    <Property Name="PoBox" Type="varchar" MaxLength="20" />
+    <Property Name="ZIPCode" Type="varchar" MaxLength="10" />
+    <Property Name="Telefono" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="EMail" Type="varchar" MaxLength="50" />
+    <Property Name="WebSite" Type="varchar" MaxLength="50" />
+    <Property Name="DenomCodlegal" Type="varchar" MaxLength="50" />
+    <Property Name="subdivciudad" Type="varchar" MaxLength="50" />
+    <Property Name="SubDivPais" Type="varchar" MaxLength="50" />
+    <Property Name="CasillaPostal" Type="varchar" MaxLength="50" />
+    <Property Name="CodigoCorreo" Type="varchar" MaxLength="50" />
+    <Property Name="DepProductos" Type="varchar" MaxLength="50" />
+    <Property Name="SitioVenta" Type="varchar" MaxLength="50" />
+    <Property Name="NumeDocu" Type="varchar" MaxLength="50" />
+    <Property Name="MontoDepImp" Type="varchar" MaxLength="50" />
+    <Property Name="MontoSinImp" Type="varchar" MaxLength="50" />
+    <Property Name="MontoExento" Type="varchar" MaxLength="50" />
+    <Property Name="MontoAfecto" Type="varchar" MaxLength="50" />
+    <Property Name="NomRepLegal" Type="varchar" MaxLength="100" />
+    <Property Name="CodRepLegal" Type="varchar" MaxLength="20" />
+    <Property Name="IDCajaComp" Type="varchar" MaxLength="20" />
+    <Property Name="IDInsSegur" Type="varchar" MaxLength="20" />
+    <Property Name="PorcCajaComp" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="PorcInsSegur" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="PorcAdicInsSegur" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="IDProvCajaComp" Type="varchar" MaxLength="20" />
+    <Property Name="IDProvInsSegur" Type="varchar" MaxLength="20" />
+    <Property Name="EmpPagCajaComp" Type="numeric" Precision="3" Scale="0" />
+    <Property Name="EmpPagInsSegur" Type="numeric" Precision="3" Scale="0" />
+    <Property Name="EmpPagAFP" Type="numeric" Precision="3" Scale="0" />
+    <Property Name="EmpPagIsapre" Type="numeric" Precision="3" Scale="0" />
+    <Property Name="TempUsaVentas" Type="varchar" MaxLength="1" />
+    <Property Name="IDCliente" Type="varchar" MaxLength="20" />
+    <Property Name="IDTramoEmp" Type="varchar" MaxLength="20" />
+    <Property Name="VtaElectronica" Type="varchar" MaxLength="1" />
+    <Property Name="NomContactoVtaElec" Type="varchar" MaxLength="100" />
+    <Property Name="FonoContactoVtaElec" Type="varchar" MaxLength="20" />
+    <Property Name="FaxContactoVtaElec" Type="varchar" MaxLength="20" />
+    <Property Name="EmailContactoVtaElec" Type="varchar" MaxLength="30" />
+    <Property Name="UsaSolCotizacion" Type="varchar" MaxLength="1" />
+    <Property Name="IDMonedaPesos" Type="varchar" MaxLength="20" />
+    <Property Name="PorcInpAfIsa" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="IntContable" Type="varchar" MaxLength="1" />
+    <Property Name="IntVenta" Type="varchar" MaxLength="1" />
+    <Property Name="IntMovimientos" Type="varchar" MaxLength="1" />
+    <Property Name="UsaGratificacion" Type="varchar" MaxLength="1" />
+    <Property Name="IntArticulos" Type="varchar" MaxLength="1" />
+    <Property Name="intAntPago" Type="varchar" MaxLength="1" />
+    <Property Name="IntEmpleados" Type="varchar" MaxLength="1" />
+    <Property Name="IntParametrosEmp" Type="varchar" MaxLength="1" />
+    <Property Name="CodAreaFax" Type="varchar" MaxLength="2" />
+    <Property Name="CodAreaFono" Type="varchar" MaxLength="2" />
+    <Property Name="IntUsaCertificado" Type="varchar" MaxLength="1" />
+    <Property Name="NumClieSii" Type="int" />
+    <Property Name="UsaCorrecionMovInv" Type="varchar" MaxLength="1" />
+    <Property Name="SociedadAnonima" Type="varchar" MaxLength="1" />
+    <Property Name="TipoSA" Type="varchar" MaxLength="1" />
+    <Property Name="NumSIIFormulario" Type="int" />
+    <Property Name="NumSIIVersion" Type="int" />
+    <Property Name="IntForm3323" Type="varchar" MaxLength="1" />
+    <Property Name="IntExpContab" Type="varchar" MaxLength="1" />
+    <Property Name="NuevoFormatoCodLegal" Type="varchar" MaxLength="1" />
+    <Property Name="AutorizaValCodLegal" Type="varchar" MaxLength="1" />
+    <Property Name="OpcionDeGestion" Type="varchar" MaxLength="1" />
+    <Property Name="DocVtaVE" Type="varchar" MaxLength="20" />
+    <Property Name="IntCompras" Type="varchar" MaxLength="1" />
+    <Property Name="UsaFactElectronica" Type="varchar" MaxLength="1" />
+    <Property Name="ACTECO1" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="ACTECO2" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="ACTECO3" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="ACTECO4" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="ACTECO5" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="FecRes" Type="datetime" />
+    <Property Name="NumRes" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="SuscritoSign" Type="varchar" MaxLength="20" />
+    <Property Name="IntContratos" Type="varchar" MaxLength="1" />
+    <Property Name="IntRIM" Type="varchar" MaxLength="1" />
+    <Property Name="IntegraInformes" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfCons" Type="varchar" MaxLength="1" />
+    <Property Name="IntHonorarios" Type="varchar" MaxLength="1" />
+    <Property Name="IntFiniquitos" Type="varchar" MaxLength="1" />
+    <Property Name="IntExpPedidos" Type="varchar" MaxLength="1" />
+    <Property Name="IntExpArticulos" Type="varchar" MaxLength="1" />
+    <Property Name="IntExpClientes" Type="varchar" MaxLength="1" />
+    <Property Name="IntExpProveedores" Type="varchar" MaxLength="1" />
+    <Property Name="RUTAutorizadoSII" Type="varchar" MaxLength="15" />
+    <Property Name="CodigoImptoRet" Type="varchar" MaxLength="10" />
+    <Property Name="UsaFactCpraElectronica" Type="varchar" MaxLength="1" />
+    <Property Name="NomArcAdj" Type="varchar" MaxLength="255" />
+    <Property Name="SizeArcAdj" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="ArcAdj" Type="image" />
+    <Property Name="IntOT" Type="varchar" MaxLength="1" />
+    <Property Name="PorEmpleados" Type="varchar" MaxLength="1" />
+    <Property Name="PorOrdenTrabajo" Type="varchar" MaxLength="1" />
+    <Property Name="IntMovimientosEmp" Type="varchar" MaxLength="1" />
+    <Property Name="IntClientes" Type="varchar" MaxLength="1" />
+    <Property Name="IntProveedores" Type="varchar" MaxLength="1" />
+    <Property Name="IntMatriz" Type="varchar" MaxLength="1" />
+    <Property Name="IntAF" Type="varchar" MaxLength="1" />
+    <Property Name="PorDocElec" Type="varchar" MaxLength="1" />
+    <Property Name="IntInvSeries" Type="varchar" MaxLength="1" />
+    <Property Name="IntInvLotes" Type="varchar" MaxLength="1" />
+    <Property Name="IntInvUbicaciones" Type="varchar" MaxLength="1" />
+    <Property Name="IntInvPropiedades" Type="varchar" MaxLength="1" />
+    <Property Name="IntMultMovNomina" Type="varchar" MaxLength="1" />
+    <Property Name="IntCRM" Type="varchar" MaxLength="1" />
+    <Property Name="Rubro" Type="numeric" Precision="2" Scale="0" />
+    <Property Name="SubRubro" Type="numeric" Precision="3" Scale="0" />
+    <Property Name="Acteco" Type="numeric" Precision="12" Scale="0" />
+    <Property Name="IntPagoProv" Type="varchar" MaxLength="1" />
+    <Property Name="IntMultiConta" Type="varchar" MaxLength="1" />
+    <Property Name="IntForm3327_3328" Type="varchar" MaxLength="1" />
+    <Property Name="IntPedidos" Type="char" MaxLength="1" />
+    <Property Name="UsaAudit" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="IntGS1" Type="varchar" MaxLength="1" />
+    <Property Name="IntInnovacion" Type="varchar" MaxLength="1" />
+    <Property Name="RegimenesFiscales" Type="varchar" MaxLength="240" />
+    <Property Name="IntDefineStockFuturo" Type="varchar" MaxLength="1" />
+    <Property Name="IntInformeIFRS" Type="varchar" MaxLength="1" />
+    <Property Name="Complementos" Type="text" />
+    <Property Name="IntContBimoneda" Type="varchar" MaxLength="1" />
+    <Property Name="IDFormatoCRMPortal" Type="int" />
+    <Property Name="IntGestProyecto" Type="varchar" MaxLength="1" />
+    <Property Name="IntArchivosDAOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntMovil" Type="varchar" MaxLength="1" />
+    <Property Name="IntNotificacionesOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntNotificacionesCOT" Type="varchar" MaxLength="1" />
+    <Property Name="BCIConnection" Type="varchar" MaxLength="1" />
+    <Property Name="ModeloFacturaElectronica" Type="varchar" MaxLength="2" />
+    <Property Name="IntBodegaPorUsuario" Type="varchar" MaxLength="1" />
+    <Property Name="IntFacturaMultOt" Type="varchar" MaxLength="1" />
+    <Property Name="IntConsumoOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfVTAS" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfCPAS" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfINV" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfCOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntInfConfPED" Type="varchar" MaxLength="1" />
+    <Property Name="IntCnegPorUsuario" Type="varchar" MaxLength="1" />
+    <Property Name="IntPos" Type="varchar" MaxLength="1" />
+    <Property Name="IntRequisiciones" Type="varchar" MaxLength="1" />
+    <Property Name="IntImpOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntPeople" Type="varchar" MaxLength="1" />
+    <Property Name="BciPyme" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaLiq" Type="varchar" MaxLength="1" />
+    <Property Name="IntImgArt" Type="varchar" MaxLength="1" />
+    <Property Name="IntImgCot" Type="varchar" MaxLength="1" />
+    <Property Name="RegimenEspecial" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaAsocPedidoOP" Type="varchar" MaxLength="1" />
+    <Property Name="Ubigeo" Type="varchar" MaxLength="6" />
+    <Property Name="IntAgrupacionDetCoti" Type="varchar" MaxLength="1" />
+    <Property Name="IntCodAlternativos" Type="varchar" MaxLength="1" />
+    <Property Name="IntBalAmericano" Type="varchar" MaxLength="1" />
+    <Property Name="IntImpVtaEspecifico" Type="varchar" MaxLength="1" />
+    <Property Name="IntOTxGDV" Type="varchar" MaxLength="1" />
+    <Property Name="IntFmtoEmailEspecifi" Type="varchar" MaxLength="1" />
+    <Property Name="IntNotaCobro" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaAsocDocReq" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaDoctoTraspaso" Type="varchar" MaxLength="1" />
+    <Property Name="IntConsumoParcialOT" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaImpListaPrecio" Type="varchar" MaxLength="1" />
+    <Property Name="IntAgrupaCtaInfComp" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaPreventaPOS" Type="varchar" MaxLength="1" />
+    <Property Name="IntUsaPagoHonoElec" Type="varchar" MaxLength="1" />
+    <Property Name="IntFactoring" Type="varchar" MaxLength="1" />
+    <Property Name="UsaCategoriasProductos" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="ERPDefontanaDalCoreModelStoreContainer">
+    <EntitySet Name="empresa" EntityType="Self.empresa" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

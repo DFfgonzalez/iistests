@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ERP.Defontana.Dal.Core.Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="IDEmpresa" />
+    </Key>
+    <Property Name="IDEmpresa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodLegal" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Giro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Sigla" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Distrito" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Ciudad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Pais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PoBox" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ZIPCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WebSite" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DenomCodlegal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="subdivciudad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SubDivPais" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CasillaPostal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoCorreo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DepProductos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SitioVenta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NumeDocu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MontoDepImp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MontoSinImp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MontoExento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MontoAfecto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NomRepLegal" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CodRepLegal" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDCajaComp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDInsSegur" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PorcCajaComp" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="PorcInsSegur" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="PorcAdicInsSegur" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="IDProvCajaComp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDProvInsSegur" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmpPagCajaComp" Type="Decimal" Precision="3" Scale="0" />
+    <Property Name="EmpPagInsSegur" Type="Decimal" Precision="3" Scale="0" />
+    <Property Name="EmpPagAFP" Type="Decimal" Precision="3" Scale="0" />
+    <Property Name="EmpPagIsapre" Type="Decimal" Precision="3" Scale="0" />
+    <Property Name="TempUsaVentas" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IDCliente" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDTramoEmp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VtaElectronica" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NomContactoVtaElec" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FonoContactoVtaElec" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FaxContactoVtaElec" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailContactoVtaElec" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="UsaSolCotizacion" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IDMonedaPesos" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PorcInpAfIsa" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="IntContable" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntVenta" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMovimientos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="UsaGratificacion" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntArticulos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="intAntPago" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntEmpleados" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntParametrosEmp" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CodAreaFax" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CodAreaFono" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaCertificado" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NumClieSii" Type="Int32" />
+    <Property Name="UsaCorrecionMovInv" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="SociedadAnonima" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="TipoSA" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NumSIIFormulario" Type="Int32" />
+    <Property Name="NumSIIVersion" Type="Int32" />
+    <Property Name="IntForm3323" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntExpContab" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NuevoFormatoCodLegal" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="AutorizaValCodLegal" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="OpcionDeGestion" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DocVtaVE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IntCompras" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="UsaFactElectronica" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ACTECO1" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="ACTECO2" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="ACTECO3" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="ACTECO4" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="ACTECO5" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="FecRes" Type="DateTime" Precision="3" />
+    <Property Name="NumRes" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="SuscritoSign" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IntContratos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntRIM" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntegraInformes" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfCons" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntHonorarios" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntFiniquitos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntExpPedidos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntExpArticulos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntExpClientes" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntExpProveedores" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RUTAutorizadoSII" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoImptoRet" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="UsaFactCpraElectronica" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="NomArcAdj" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SizeArcAdj" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="ArcAdj" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IntOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PorEmpleados" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PorOrdenTrabajo" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMovimientosEmp" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntClientes" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntProveedores" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMatriz" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntAF" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PorDocElec" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInvSeries" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInvLotes" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInvUbicaciones" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInvPropiedades" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMultMovNomina" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntCRM" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Rubro" Type="Decimal" Precision="2" Scale="0" />
+    <Property Name="SubRubro" Type="Decimal" Precision="3" Scale="0" />
+    <Property Name="Acteco" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="IntPagoProv" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMultiConta" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntForm3327_3328" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntPedidos" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="UsaAudit" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IntGS1" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInnovacion" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RegimenesFiscales" Type="String" MaxLength="240" FixedLength="false" Unicode="false" />
+    <Property Name="IntDefineStockFuturo" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInformeIFRS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Complementos" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IntContBimoneda" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IDFormatoCRMPortal" Type="Int32" />
+    <Property Name="IntGestProyecto" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntArchivosDAOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntMovil" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntNotificacionesOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntNotificacionesCOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="BCIConnection" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ModeloFacturaElectronica" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="IntBodegaPorUsuario" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntFacturaMultOt" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntConsumoOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfVTAS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfCPAS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfINV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfCOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntInfConfPED" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntCnegPorUsuario" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntPos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntRequisiciones" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntImpOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntPeople" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="BciPyme" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaLiq" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntImgArt" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntImgCot" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="RegimenEspecial" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaAsocPedidoOP" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Ubigeo" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="IntAgrupacionDetCoti" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntCodAlternativos" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntBalAmericano" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntImpVtaEspecifico" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntOTxGDV" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntFmtoEmailEspecifi" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntNotaCobro" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaAsocDocReq" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaDoctoTraspaso" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntConsumoParcialOT" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaImpListaPrecio" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntAgrupaCtaInfComp" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaPreventaPOS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntUsaPagoHonoElec" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="IntFactoring" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="UsaCategoriasProductos" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="MsContext" annotation:LazyLoadingEnabled="true" a:TypeAccess="Internal" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration">
+    <EntitySet Name="Empresas" EntityType="ERP.Defontana.Dal.Core.Model.Empresa" />
+  </EntityContainer>
+</Schema>
